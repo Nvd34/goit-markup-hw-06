@@ -1,0 +1,140 @@
+/* =========================== HERO =========================== */
+
+
+.hero{
+    background-image: url(../../images/)
+    width: 320px;
+/* height: 432px; */
+flex-shrink: 0;
+background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-hero.jpg);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+}
+
+
+
+/* ======================= HERO TABLET ======================== */
+@media screen and (min-width: 768px){
+ .hero{width: 768px;
+/* height: 436px; */
+flex-shrink: 0;}   
+
+}
+
+/* ======================= HERO DESKTOP ======================== */
+
+@media screen and (min-width: 1158px) {
+    .hero{
+        max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 188px;
+  padding-bottom: 188px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hero {
+  background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-hero.jpg);
+
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main-title {
+  max-width: 496px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-align: center;
+
+  font-size: 56px;
+
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  padding: 16px 32px;
+
+  height: 56px;
+  min-width: 169px;
+  margin-top: 48px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  border: none;
+  background: #4d5ae5;
+  color: #ffffff;
+
+  /* Button Text */
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+} */
