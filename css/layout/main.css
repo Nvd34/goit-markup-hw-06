@@ -226,56 +226,11 @@
 
   .section-heder {
     align-items: flex-start;
-    /* font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2; */
   }
   .benefits-list {
     width: calc((100% - 72px) / 4);
   }
 }
-
-/* .benefits {
-  display: flex;
-
-  gap: 24px;
-}
-.benefits-list {
-  width: calc((100% - 72px) / 4);
-}
-
-.section-heder {
-  margin-bottom: 8px;
-  color: #2e2f42;
-
-  
-
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.second-section-text {
-  
-
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-} 
-
-.benefits-icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  background: #f4f4fd;
-
-  gap: 24px;
-}
-
 
 /*============================================ OUR TEEM ========================================= */
 .section-out-teem {
@@ -529,84 +484,4 @@
     padding: 40px 32px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  /* 
-
-
-.section-portfolio {
-  color: #2e2f42;
-  text-align: center;
-
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-.portfolio-header {
-  margin-bottom: 8px;
-  color: #2e2f42;
-
-  
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.overlay-wrapper {
-  position: relative;
-  overflow: hidden;
-}
-.overlay-portfolio {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  color: #f4f4fd;
-
-  font-family: Roboto;
-  font-size: 16px;
-
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  background: #4d5ae5;
-  position: absolute;
-  transform: translateY(100%);
-  padding: 40px 32px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.img-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
-.portfolio-text {
-  
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.item-our-teem-list {
-  width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.item-our-teem-list:hover .overlay-portfolio {
-  transform: translateY(0%);
-}
-.item-our-teem-list:hover {
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-.img-discription {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-} */
 }
