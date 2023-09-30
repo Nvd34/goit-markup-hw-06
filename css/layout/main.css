@@ -20,7 +20,7 @@
 .main-title {
   color: #fff;
   text-align: center;
-
+  margin-bottom: 72px;
   font-size: 36px;
 
   font-weight: 700;
@@ -36,7 +36,7 @@
 
   height: 56px;
   min-width: 169px;
-  margin-top: 72px;
+  /* margin-top: 72px; */
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -84,7 +84,7 @@
   }
   .main-title {
     width: 496px;
-
+    margin-bottom: 36px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -157,6 +157,7 @@
   display: flex;
   /* justify-content: center;
   max-width: 288px; */
+  flex-flow: row wrap;
   flex-direction: row;
   align-items: flex-start;
   gap: 72px 24px;
@@ -175,7 +176,8 @@
 .section-heder {
   margin-bottom: 8px;
   color: #2e2f42;
-  text-align: start;
+  text-align: center;
+  /* text-align: start; */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -192,9 +194,11 @@
     row-gap: 72px;
   }
   .section-heder {
+    display: inline;
     align-items: flex-start;
   }
   .benefits-list {
+    /* width: 356px; */
     width: calc((100% - 48px) / 2);
   }
 }
