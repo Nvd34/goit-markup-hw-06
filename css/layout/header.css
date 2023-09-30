@@ -66,13 +66,13 @@
     color: #404bbf;
   }
   .studio-hover::after {
-    display: block;
     position: absolute;
+    display: flex;
     width: 100%;
-    bottom: -1px;
+    height: 4px;
     border-radius: 2px;
     background: #404bbf;
-    height: 4px;
+    bottom: -32px;
     content: "";
   }
   .menu {
@@ -103,12 +103,12 @@
     display: block;
   }
   .address-list-item {
-    color: #434455;
-
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -124,96 +124,3 @@
     gap: 40px;
   }
 }
-
-/* .page-header {
-  
-}
-
-.page-header-container {
-  display: flex;
-
-  justify-content: space-between;
-}
-.logotype {
-  margin-right: 76px;
-  color: #4d5ae5;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.navigation {
-  display: flex;
-  align-items: center;
-
-  justify-content: space-between;
-}
-.menu {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.studio-hover::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  bottom: -1px;
-  border-radius: 2px;
-  background: #404bbf;
-  height: 4px;
-  content: "";
-}
-
-.menu-list {
-  
-  
-  color: #2e2f42;
-
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.address {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.address-list {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.address-class {
-  font-style: normal;
-}
-
-.studio-hover {
-  position: relative;
-  color: #404bbf;
-}
-
-.address-list-item {
-  color: #434455;
-
-  
-
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.class-span {
-  color: #2e2f42;
-}
-.menu:hover,
-.menu:focus {
-  color: #404bbf;
-}   */
